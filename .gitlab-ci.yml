@@ -26,7 +26,7 @@ nightly:
   image: "crystallang/crystal:nightly"
   allow_failure: true
   script:
-    - shards --ignore-crystal-version
+    - shards
     - crystal spec --error-on-warnings
     - crystal tool format --check
 
