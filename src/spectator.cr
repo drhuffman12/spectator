@@ -7,6 +7,7 @@ module Spectator
 
   # Current version of the Spectator library.
   VERSION = "0.9.28"
+  # VERSION = "0.9.29"
 
   # Top-level describe method.
   # All specs in a file must be wrapped in this call.
