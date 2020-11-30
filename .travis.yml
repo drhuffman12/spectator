@@ -6,7 +6,8 @@ crystal:
 
 jobs:
   allow_failures:
-    - crystal: nightly
+    - crystal: latest
+    # - crystal: nightly
 
 # install:
 #   - shards install
