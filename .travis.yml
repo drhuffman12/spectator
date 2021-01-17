@@ -13,5 +13,7 @@ jobs:
     - crystal: latest
 
 script:
+  - shards install
+  - shards update
   - crystal spec
   - crystal tool format --check
