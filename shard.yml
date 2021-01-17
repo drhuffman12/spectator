@@ -12,8 +12,10 @@ crystal: ">= 0.36.0"
 license: MIT
 
 development_dependencies:
-  ameba:
-    github: crystal-ameba/ameba
-    branch: master
-    # version: ~> 0.13.1
-    # version: ~> 0.13.3
+
+  ## Un-comment/edit after Crystal 0.36.0 or 1.0 compatible:
+  # ameba:
+  #   github: crystal-ameba/ameba
+  #   branch: master
+  #   # version: ~> 0.13.1
+  #   # version: ~> 0.13.3
