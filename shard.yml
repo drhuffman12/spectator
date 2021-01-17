@@ -6,7 +6,8 @@ description: |
 authors:
   - Michael Miller <icy.arctic.fox@gmail.com>
 
-crystal: 0.35.1
+# crystal: 0.35.1
+crystal: ">= 0.36.0"
 
 license: MIT
 
@@ -14,3 +15,4 @@ development_dependencies:
   ameba:
     github: crystal-ameba/ameba
     version: ~> 0.13.1
+    # version: ~> 0.13.3
