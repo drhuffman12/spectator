@@ -1,15 +1,17 @@
 # language: crystal
 
-# NOTE: DO NOT MERGE UPSTREAM (to repo not owned by me)!!!
+# NOTE: DO NOT MERGE UPSTREAM (i.e.: DO NOT 'git push owner ...'; repo not owned by me)!!!
 
-# Uncomment the following if you'd like Travis to run specs and check code formatting
-script:
-  - crystal spec
-  - crystal tool format --check
-
-dist: xenial
-# dist: bionic # ... is missing dependencies
 language: crystal
+
 crystal:
   - latest
   - nightly
+
+jobs:
+  allow_failures:
+    - crystal: latest
+
+script:
+  - crystal spec
+  - crystal tool format --check
